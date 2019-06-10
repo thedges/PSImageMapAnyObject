@@ -1,0 +1,19 @@
+<template>
+        <div class="slds-card slds-p-around_medium">
+            <div class="area-container">
+                <div>
+                    <img class="site-image" src={resourceURL} usemap="#site-map">
+    
+                    <map name="site-map" class="site-map">
+                        <template for:each={areas} for:item="area">
+                            <area key={area.title} alt={area.title} onclick={handleAreaClick}
+                                onmouseover={handleMouseOver} onmouseout={handleMouseOut} coords={area.coords}
+                                shape={area.shape}>
+                        </template>
+                    </map>
+                </div>
+                  <div class="area-details hide" lwc:dom="manual">
+                  </div>
+            </div>
+        </div>
+    </template>

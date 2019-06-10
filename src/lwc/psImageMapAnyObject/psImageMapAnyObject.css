@@ -1,0 +1,39 @@
+.site-image {
+    width: 100%;
+  }
+  
+  .area-container {
+      position: relative;
+  }
+  
+  .area-details {
+    position: absolute;
+    z-index: 5; 
+    border-radius: 5px;
+    border: 1px solid #808080;
+    background-color: #FFFFFF;
+    opacity: 0.9;
+    padding: 10px; 
+    min-width: 150px;
+    min-height: 50px;
+  }
+  
+  .hide {
+    display: none;
+  }
+
+  .top-left {
+    top: 0px; left: 0px; 
+  }
+  
+  .top-right {
+    top: 0px; right: 0px; 
+  }
+  
+  .bottom-left {
+    bottom: 0px; left: 0px; 
+  }
+  
+  .bottom-right {
+    bottom: 0px; right: 0px; 
+  }
