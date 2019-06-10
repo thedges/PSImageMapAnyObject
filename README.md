@@ -68,6 +68,10 @@ Here are the configuration parameters for the component:
 | Location of Hover Box  | String | Option where to display hover pop-up window (top-left, top-right, bottom-left, bottom-right or auto). Auto will position pop-up box based on quadrant you click in the image.  |
 | Where Clause | String | Extra where clause phrase to help filter records to drive the map. Use if you use same Sobject to drive multiple maps. You can have extra clause like: Map_Name__c = 'Map1' |
 
+Here is a sample configuration for reference:
+
+![alt text](https://github.com/thedges/PSImageMapAnyObject/blob/master/PSImageMapAnyObject-Config.png "Sample Configuration")
+
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
