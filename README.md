@@ -56,4 +56,12 @@ Here are the configuration parameters for the component:
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-| Title | String | The title to display at top of component |
+| Image Static Resource Name | String | Name of static resource of image |
+| SObject API Name | String | API name of SObject that drives this component |
+| Title Field API Name | String | Field that stores the title for the image map area (unique for map) |
+| Record ID Field API Name | String | Field that stores the record id to transition to if area is clicked. Can be text field or lookup. |
+| Shape Field API Name | String | Field that stores the shape (circle, poly, rect) of the image map area |
+| Coordinates Field API Name | String | Field that stores the coordinates of the image map area |
+| Details Field API Name | String | Field that stores the hover pop-up details. Should be a formula field that returns HTML. |
+| Location of Hover Box  | String | Option where to display hover pop-up window (top-left, top-right, bottom-left, bottom-right or auto). Auto will position pop-up box based on quadrant you click in the image.  |
+| Where Clause | String | Extra where clause phrase to help filter records to drive the map. Use if you use same Sobject to drive multiple maps. You can have extra clause like: Map_Name__c = 'Map1' |
