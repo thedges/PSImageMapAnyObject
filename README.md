@@ -50,6 +50,8 @@ Here is sample of formulat field for the Details__c field:
 '</html>'
 ```
 
+After creating the above fields, you will need to edit each record in your target SObject and provide values for the 5 fields.
+
 ## Configuration Parameters
 
 Here are the configuration parameters for the component:
