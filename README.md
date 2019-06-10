@@ -14,11 +14,11 @@ For this component to work, you need to upload an image as static resource and c
 
 1. Find the image you want to be the base for the component and upload as static resource. 
 2. Next you will need to create following 5 fields on an sobject that will drive the component (you can name the fields whatever you like:
-   * Create a text field that stores a "title" for image map area. The value for this field should be unique for the image map. Suggest Text(50) but can be larger if needed.
-   * Create a picklist field to store the shape for the image map area. The 3 picklist options to be defined are: circle, poly, and rect.
-   * Create a text field to store the coordinates for the image map area. Suggest Text(255). Recommend using a tool like [this one](https://www.image-map.net/) to create your coordinates.
-   * Create a field that points to the record id you want to transition to if user clicks on this section of the map. This can be a simple text field that stores a record id or can be a Lookup field. Your choice.
-   * Create a formula field that returns a text field that contains HTML. This is used for the pop-up window when you hover over an image map area. You can specify exactly what you want to show in that area.
+   * <b>Title:</b> Create a text field that stores a "title" for image map area. The value for this field should be unique for the image map. Suggest Text(50) but can be larger if needed.
+   * <b>Shape:</b> Create a picklist field to store the shape for the image map area. The 3 picklist options to be defined are: circle, poly, and rect.
+   * <b>Coordinates:</b> Create a text field to store the coordinates for the image map area. Suggest Text(255). Recommend using a tool like [this one](https://www.image-map.net/) to create your coordinates.
+   * <b>RecordId:</b> Create a field that points to the record id you want to transition to if user clicks on this section of the map. This can be a simple text field that stores a record id or can be a Lookup field. Your choice.
+   * <b>Details:</b> Create a formula field that returns a text field that contains HTML. This is used for the pop-up window when you hover over an image map area. You can specify exactly what you want to show in that area.
    
 Here is example of the 5 fields:
 
