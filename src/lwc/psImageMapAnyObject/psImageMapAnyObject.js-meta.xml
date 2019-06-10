@@ -6,10 +6,12 @@
         <target>lightning__AppPage</target>
         <target>lightning__RecordPage</target>
         <target>lightning__HomePage</target>
+        <target>lightningCommunity__Page</target>
+        <target>lightningCommunity__Default</target>
     </targets>
     <targetConfigs>
-        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage">
-             <property name="imageName" type="String" label="Image Statis Resource Name" />
+        <targetConfig targets="lightning__AppPage,lightning__RecordPage,lightning__HomePage,lightningCommunity__Default">
+             <property name="imageName" type="String" label="Image Static Resource Name" />
              <property name="sobjectName" type="String" label="SObject API Name" />
              <property name="titleField" type="String" label="Title Field API Name" />
              <property name="idField" type="String" label="Record ID Field API Name" />

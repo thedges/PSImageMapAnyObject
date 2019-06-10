@@ -29,7 +29,7 @@ export default class PsImageMapAnyObject
   get resourceURL () {
     // /resource/1559329958000/LakeSiteMap
     //this. resource = 'SFloorML';
-    if (this.imageName.startsWith ('/resource')) {
+    if (this.imageName.startsWith ('/resource') || this.imageName.startsWith ('http')) {
       return this.imageName;
     } else {
       return '/resource/' + this.imageName;
