@@ -72,6 +72,8 @@ Here is a sample configuration for reference:
 
 ![alt text](https://github.com/thedges/PSImageMapAnyObject/blob/master/PSImageMapAnyObject-Config.png "Sample Configuration")
 
+Click this "Deploy to Salesforce" button to deploy to your target org:
+
 <a href="https://githubsfdeploy.herokuapp.com">
   <img alt="Deploy to Salesforce"
        src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/deploy.png">
